@@ -1,0 +1,1096 @@
+repo_name: 2lambda123/LakesideMutual
+report_id: 5794ca211844551ed5e1c7a9182eed4e
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T08:00:02+00:00'
+requested_by: misto
+provider: github
+branch: master
+detected_tools_count: 83
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/LakesideMutual
+  detection_source: Repo Metadata
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/Dockerfile
+  detection_source: customer-management-frontend/Dockerfile
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: Semantic UI
+  description: A UI Component library implemented using a set of specifications designed
+    around natural language
+  website_url: http://semantic-ui.com/
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1106/semantic-ui.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: Spring Cloud
+  description: Spring helps development teams everywhere build simple, portable,fast
+    and flexible JVM-based systems and applications.
+  website_url: https://spring.io/projects/spring-cloud
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5494/default_b403ef08976083aea6d4caf5a4f19f3325c751e5.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: Unstated
+  description: State so simple, it goes without saying
+  website_url: https://github.com/jamiebuilds/unstated
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/10015/Screen_Shot_2018-12-07_at_10.23.58_AM.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-self-service-frontend/package.json
+  detection_source: customer-self-service-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.7.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/policy-management-frontend/package-lock.json
+  detection_source: policy-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: ActiveMQ
+  description: A message broker written in Java together with a full JMS client
+  website_url: http://activemq.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1062/default_08edb6f82e2c79424efc1e297ab096e50acd8e0b.jpg
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-self-service-backend/pom.xml
+  detection_source: customer-self-service-backend/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: Mentat
+  description: " persistent, relational store by Mozilla"
+  website_url: https://mozilla.github.io/mentat
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.20.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: policy-management-frontend/babel.config.js
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/.eslintrc
+  detection_source: customer-management-frontend/.eslintrc
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual
+  detection_source: Repo Metadata
+- name: Hystrix
+  description: Latency and fault tolerance library
+  website_url: https://github.com/Netflix/Hystrix
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Fault Tolerance Tools
+  image_url: https://img.stackshare.io/service/1758/cde558e9b4a1f07ff99f90d637c38388.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-self-service-backend/pom.xml
+  detection_source: customer-self-service-backend/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/policy-management-backend/src/main/resources/logback.xml
+  detection_source: policy-management-backend/src/main/resources/logback.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/nginx-loadbalancing/docker-compose.yml
+  detection_source: customer-core/nginx-loadbalancing/docker-compose.yml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/risk-management-server/package.json
+  detection_source: risk-management-server/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/src/main/resources/application.properties
+  detection_source: customer-core/src/main/resources/application.properties
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: Dataform
+  description: A framework for managing SQL based data operations.
+  website_url: https://dataform.co/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual
+  detection_source: Repo Metadata
+- name: flow-bin
+  website_url: github.com/flowtype/flow-bin
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8085/15352388.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: nconf
+  website_url: https://github.com/indexzero/nconf
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7721/4624.jpeg
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/risk-management-client/package.json
+  detection_source: risk-management-client/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-self-service-backend/pom.xml
+  detection_source: customer-self-service-backend/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-csv
+  description: Support for reading and writing CSV-encoded data via Jackson abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: com.googlecode.libphonenumber:libphonenumber
+  description: Google's common Java library for parsing, formatting, storing and validating
+    international phone numbers
+  version: 8.12.42
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: de.codecentric:spring-boot-admin-starter-client
+  description: Spring Boot Admin Client Starter
+  version: 2.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: io.jsonwebtoken:jjwt
+  description: 'Java JWT: JSON Web Token for Java and Android'
+  version: 0.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: javax.xml.bind:jaxb-api
+  description: JAXB
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-backend/pom.xml
+  detection_source: customer-management-backend/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: org.apache.activemq:activemq-broker
+  description: The ActiveMQ Message Broker implementation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-self-service-backend/pom.xml
+  detection_source: customer-self-service-backend/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.apache.activemq:activemq-kahadb-store
+  description: The ActiveMQ KahaDB Store Implementation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-self-service-backend/pom.xml
+  detection_source: customer-self-service-backend/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.apache.activemq:activemq-stomp
+  description: The ActiveMQ STOMP Protocol Implementation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/policy-management-backend/pom.xml
+  detection_source: policy-management-backend/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.apache.commons:commons-text
+  description: Apache Commons Text is a library focused on algorithms working on strings
+  version: '1.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary code execution in Apache Commons Text
+    cve_id: CVE-2022-42889
+    cve_url: https://github.com/advisories/GHSA-599f-7c49-w659
+    detected_date: Oct 14
+    severity: critical
+    first_patched: 1.10.0
+- name: org.glassfish.jaxb:jaxb-runtime
+  description: JAXB
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/eureka-server/pom.xml
+  detection_source: eureka-server/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: org.quartz-scheduler:quartz
+  description: Enterprise Job Scheduler
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/policy-management-backend/pom.xml
+  detection_source: policy-management-backend/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.springframework.boot:spring-boot-devtools
+  description: Spring Boot Developer Tools
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-thymeleaf
+  description: Starter for building MVC web applications using Thymeleaf views
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-validation
+  description: Starter for using Java Bean Validation with Hibernate Validator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-backend/pom.xml
+  detection_source: customer-management-backend/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-websocket
+  description: Starter for building WebSocket applications using Spring Framework's
+    WebSocket support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-backend/pom.xml
+  detection_source: customer-management-backend/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.springframework.cloud:spring-cloud-starter-config
+  description: Spring Cloud Starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.springframework.hateoas:spring-hateoas
+  description: "Library to support implementing representations for \t\thyper-text
+    driven REST web services"
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.springframework.security:spring-security-test
+  description: Spring-security-test
+  version: 5.6.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: org.springframework:spring-context-support
+  description: Spring Context Support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/policy-management-backend/pom.xml
+  detection_source: policy-management-backend/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: wsdl4j:wsdl4j
+  description: Java stub generator for WSDL
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-core/pom.xml
+  detection_source: customer-core/pom.xml
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: "@grpc/proto-loader"
+  description: GRPC utility library for loading .proto files
+  package_url: https://www.npmjs.com/@grpc/proto-loader
+  version: 0.6.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18549/default_0e8c62fd0420ce3873a7b150d09fb9d1094266c0.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/risk-management-client/package-lock.json
+  detection_source: risk-management-client/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: "@vue/cli-plugin-babel"
+  description: Babel plugin for vue-cli
+  package_url: https://www.npmjs.com/@vue/cli-plugin-babel
+  version: 4.5.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16006/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/policy-management-frontend/package-lock.json
+  detection_source: policy-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: "@vue/cli-service"
+  description: Local service for vue-cli projects
+  package_url: https://www.npmjs.com/@vue/cli-service
+  version: 4.5.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15990/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/policy-management-frontend/package-lock.json
+  detection_source: policy-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/policy-management-frontend/package-lock.json
+  detection_source: policy-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 8.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: risk-management-client/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: documentation
+  description: A documentation generator
+  package_url: https://www.npmjs.com/documentation
+  version: 14.0.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16311/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: flow-bin
+  description: Binary wrapper for Flow - A static type checker for JavaScript
+  package_url: https://www.npmjs.com/flow-bin
+  version: 0.196.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15957/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: json2csv
+  description: Convert JSON to CSV
+  package_url: https://www.npmjs.com/json2csv
+  version: 5.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17719/default_9693d58c90f5c726ee648423687212d2a94266da.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/risk-management-server/package-lock.json
+  detection_source: risk-management-server/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: nconf
+  description: Hierarchical node.js configuration with files
+  package_url: https://www.npmjs.com/nconf
+  version: 0.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16591/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/risk-management-client/package-lock.json
+  detection_source: risk-management-client/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in nconf
+    cve_id: CVE-2022-21803
+    cve_url: https://github.com/advisories/GHSA-6xwr-q98w-rvg7
+    detected_date: Apr 27
+    severity: high
+    first_patched: 0.11.4
+- name: normalizr
+  description: Normalizes and denormalizes JSON according to schema for Redux and
+    Flux applications
+  package_url: https://www.npmjs.com/normalizr
+  version: 3.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17691/default_7ff152b9bcf219fad0d56c78a016d5bad6a2a526.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: progress
+  description: Flexible ascii progress bar
+  package_url: https://www.npmjs.com/progress
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16410/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/risk-management-client/package-lock.json
+  detection_source: risk-management-client/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: react-router
+  description: A complete routing library for React
+  package_url: https://www.npmjs.com/react-router
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16058/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: redux-devtools
+  description: Redux DevTools with hot reloading and time travel
+  package_url: https://www.npmjs.com/redux-devtools
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17051/default_50357c490b205882dcfb608fd3c74b446186c21e.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: semantic-ui-css
+  description: CSS Only distribution of Semantic UI
+  package_url: https://www.npmjs.com/semantic-ui-css
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18728/default_99bca233a712b099f2419ea1a75e96fcbf57f2af.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: semantic-ui-react
+  description: The official Semantic-UI-React integration
+  package_url: https://www.npmjs.com/semantic-ui-react
+  version: 2.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17202/default_077b6c5a1d83537f4c2e69cb474f20509daa99ac.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2023-02-09 13:15:10.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.7.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/policy-management-frontend/package-lock.json
+  detection_source: policy-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2021-02-26 08:41:09.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  version: 3.6.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/policy-management-frontend/package-lock.json
+  detection_source: policy-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.7.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: policy-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
+- name: whatwg-fetch
+  description: A window.fetch polyfill
+  package_url: https://www.npmjs.com/whatwg-fetch
+  version: 3.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16094/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/2lambda123/LakesideMutual/blob/master/customer-management-frontend/package-lock.json
+  detection_source: customer-management-frontend/package.json
+  last_updated_by: Mirko Stocker
+  last_updated_on: 2022-02-18 10:59:03.000000000 Z
