@@ -203,7 +203,7 @@ class InsuranceQuoteRequestDetail extends React.Component<Props> {
     )
   }
 
-  renderInsuranceQuoteRequestStatusChange(
+  renderInsuranceQuoteStatusChange(
     insuranceQuoteRequest: InsuranceQuoteRequest,
     statusChange: RequestStatusChange,
     isCurrentStatus: boolean
