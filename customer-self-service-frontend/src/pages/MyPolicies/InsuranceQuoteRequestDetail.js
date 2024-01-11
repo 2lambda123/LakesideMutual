@@ -80,6 +80,7 @@ class InsuranceQuoteRequestDetail extends React.Component<Props> {
                     </Table.Header>
                     <Table.Body>
                       <Table.Row>
+}
                         <Table.Cell>
                           {customerInfo.contactAddress.streetAddress}
                           <br />
