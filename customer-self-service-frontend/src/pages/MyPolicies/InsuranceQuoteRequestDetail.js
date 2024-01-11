@@ -360,7 +360,7 @@ class InsuranceQuoteRequestDetail extends React.Component<Props> {
 
         {this.props.insuranceQuoteRequest &&
           !this.props.insuranceQuoteRequestFetchError &&
-          this.renderInsuranceQuoteRequest(this.props.insuranceQuoteRequest)}
+          this.renderInsuranceQuote(this.props.insuranceQuoteRequest)}
       </Segment>
     )
   }
