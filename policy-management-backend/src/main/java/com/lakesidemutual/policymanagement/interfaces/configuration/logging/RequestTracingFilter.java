@@ -1,6 +1,7 @@
 package com.lakesidemutual.policymanagement.interfaces.configuration.logging;
 
 import java.io.IOException;
+import java.security.SecureRandom;
 import java.util.Random;
 
 import javax.servlet.Filter;
@@ -23,7 +24,7 @@ import org.springframework.stereotype.Component;
 @Order(1)
 public class RequestTracingFilter implements Filter {
 	private final static String REQUEST_ID_KEY = "requestId";
-	private final Random rand = new Random();
+	private final Random rand = new SecureRandom();
 
 	private String createRequestId() {
 		return Integer.toString(rand.nextInt(9999));
