@@ -2,7 +2,7 @@ repo_name: 2lambda123/LakesideMutual
 report_id: 5794ca211844551ed5e1c7a9182eed4e
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-09T08:00:02+00:00'
+timestamp: '2024-02-29T19:20:26+00:00'
 requested_by: misto
 provider: github
 branch: master
@@ -215,7 +215,7 @@ tools:
   last_updated_by: Mirko Stocker
   last_updated_on: 2021-02-26 08:41:09.000000000 Z
 - name: Mentat
-  description: " persistent, relational store by Mozilla"
+  description: persistent, relational store by Mozilla
   website_url: https://mozilla.github.io/mentat
   license: Apache-2.0
   open_source: true
